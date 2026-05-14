@@ -30,7 +30,7 @@ section-based keyword scoring
         ↓
 variance-based uncertainty detection
         ↓
-LLM semantic evaluation (Gemini 2.5 Flash)
+LLM semantic evaluation (Gemini 3 Flash Preview)
         ↓
 score replacement
         ↓
@@ -101,6 +101,7 @@ data.py
 scoring.py
 analysis.py
 visualization.py
+generate_visualization_only.py
 ```
 
 Module responsibilities:
@@ -108,6 +109,7 @@ Module responsibilities:
 | Module           | Purpose                                     |
 | ---------------- | ------------------------------------------- |
 | data.py          | data loading and preprocessing              |
+| generate_visualization_only.py         | custom curriculum analytics visualizations |
 | scoring.py       | keyword scoring and LLM evaluation          |
 | analysis.py      | competency metrics and statistical analysis |
 | visualization.py | curriculum analytics visualizations         |
