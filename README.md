@@ -2,7 +2,7 @@
 
 A hybrid curriculum analytics pipeline for evaluating how university courses contribute to the development of **T-shaped professionals**.
 
-The framework combines **keyword-based competency detection** with **LLM-assisted semantic evaluation (Gemini 2.5 Flash)** to identify technical depth and interdisciplinary breadth in course syllabi.
+The framework combines **keyword-based competency detection** with **LLM-assisted semantic evaluation (Gemini-3-Flash-Preview)** to identify technical depth and interdisciplinary breadth in course syllabi.
 
 It produces quantitative curriculum indicators and visualizations that reveal competency coverage, curriculum balance, and developmental trajectories across academic programs.
 
